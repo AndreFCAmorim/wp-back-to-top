@@ -16,20 +16,20 @@ Domain Path:  /languages
 // Add button "back to top" in the footer
 add_action( 'wp_footer', 'add_back_to_top_btn' );
 function add_back_to_top_btn() {
-	echo '<a href="#" class="afca-topbutton"></a>';
+	echo '<a href="#" class="wp-topbutton"></a>';
 }
 
 add_action( 'wp_enqueue_scripts', 'callback_for_setting_up_scripts' );
 function callback_for_setting_up_scripts() {
 	wp_enqueue_style(
-		'afca-topbutton-style',
+		'wp-topbutton-style',
 		plugins_url( '/assets/css/style.css', __FILE__ ),
 		[],
 		'1.0.0'
 	);
 
 	wp_enqueue_script(
-		'afca-topbutton-script',
+		'wp-topbutton-script',
 		plugins_url( '/assets/js/script.js', __FILE__ ),
 		[ 'jquery' ],
 		'1.0.0',

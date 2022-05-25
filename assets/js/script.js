@@ -2,7 +2,7 @@ jQuery( document ).ready(function($){
 	var offset = 100,
 		speed = 250,
 		duration = 500,
-		scrollButton = $('.afca-topbutton');
+		scrollButton = $('.wp-topbutton');
 
 	$( window ).scroll( function() {
 	  if ( $( this ).scrollTop() < offset) {

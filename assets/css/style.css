@@ -1,4 +1,4 @@
-.afca-topbutton {
+.wp-topbutton {
 	position: fixed;
 	display: none;
 	height: 50px;
@@ -15,12 +15,12 @@
 	font-size: 28px;
 }
 
-.afca-topbutton:after {
+.wp-topbutton:after {
 	padding: 15px;
 	content: "\2191";
 }
 
-.afca-topbutton:hover, .afca-topbutton:visited {
+.wp-topbutton:hover, .wp-topbutton:visited {
 	color: #ffffff;
 	background-color: #807d7d;
 }
