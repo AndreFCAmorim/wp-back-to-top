@@ -3,7 +3,7 @@
 Plugin Name:  Back To Top
 Plugin URI:   https://devway.in
 Description:  This plugin will automatically add a back to top button.
-Version:      1.0
+Version:      1.0.0
 Author:       André Amorim
 Author URI:   https://www.linkedin.com/in/andrefcamorim/
 License:      GPL2
