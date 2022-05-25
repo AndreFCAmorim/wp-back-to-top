@@ -1,0 +1,26 @@
+.afca-topbutton {
+	position: fixed;
+	display: none;
+	height: 50px;
+	width: 50px;
+	line-height: 40px;
+	right: 15px;
+	bottom: 25px;
+	z-index: 1;
+	background: #000000;
+	border-radius: 50%;
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28px;
+}
+
+.afca-topbutton:after {
+	padding: 15px;
+	content: "\2191";
+}
+
+.afca-topbutton:hover, .afca-topbutton:visited {
+	color: #ffffff;
+	background-color: #807d7d;
+}
