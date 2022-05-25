@@ -8,7 +8,7 @@ Author:       André Amorim
 Author URI:   https://www.linkedin.com/in/andrefcamorim/
 License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:  afca-back-to-top
+Text Domain:  wp-back-to-top
 Domain Path:  /languages
 */
 
